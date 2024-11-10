@@ -1,0 +1,40 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+
+# FastAPI migration files
+alembic/
+
+# Database files
+*.sqlite3
+
+# Logs
+*.log
+
+# Test result files
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+.pytest_cache/
+
+# Python egg-info
+*.egg-info/
+
+# Dist and build folders
+build/
+dist/
+*.egg
